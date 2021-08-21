@@ -21,3 +21,7 @@ public class CameraFollow : MonoBehaviour
         transform.position = new Vector3(Mathf.Clamp(posX, minX, maxX), Mathf.Clamp(posY, minY, maxY), transform.position.z);
     }
 }
+
+/*
+ * Copyright © Gameiva 2021-2022
+*/
